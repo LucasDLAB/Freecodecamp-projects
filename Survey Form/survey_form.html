@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="survey_style.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Título legal</h1>
+      <p id="description">Descrição descritiva</p>
+      <form id="survey-form">
+        <fieldset>
+          <label name="name-label">Name <input placeholder="Type your name" id="name" type="text" required></label>
+          <label name="email-label">Email <input placeholder="Type your email" id="email" type="email" required></label>
+          <label name="number-label">Age(optional) <input placeholder="Type your age" id="number" type="number" min="0" max="120"></label>
+          <label>
+            <select id="dropdown">
+              <option></option>
+              <option></option>
+            </select>
+          </label>
+          <label><input type="radio" name="mesmo-nome"></label>
+          <label><input type="radio" name="mesmo-nome"></label>
+          <textarea></textarea>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
