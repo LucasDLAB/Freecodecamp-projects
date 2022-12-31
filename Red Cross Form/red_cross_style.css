@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background-image: url(assets/red_cross_background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#surface-contrast {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 20vw;
+  margin: auto;
+  color: #fff;
+  padding: 0.01vh 0 0.01vh 0;
+}
+
+fieldset {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  width: 29vw;
+  margin: 3vh 0 0 10vw;
+  padding: 4vh 0 4vh 0;
+  height: 40vw;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+input, textarea, button {
+  display: block;
+  margin: 1em auto;
+}
+
+input[name="type-of-help"] {
+  display: inline;
+  margin: 1vh 0;
+}
