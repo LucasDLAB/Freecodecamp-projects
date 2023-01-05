@@ -12,18 +12,21 @@ h1, p {
 #surface-contrast {
   background-color: rgba(0, 0, 0, 0.8);
   width: 20vw;
+  height: 18vh;
   margin: auto;
   color: #fff;
   padding: 0.01vh 0 0.01vh 0;
+  border-radius: 100%;
 }
 
 fieldset {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
-  width: 29vw;
-  margin: 3vh 0 0 10vw;
+  width: 30vw;
+  margin: -10vh 0 0 5vw;
   padding: 4vh 0 4vh 0;
   height: 40vw;
+  border-radius: 20%;
 }
 
 label {
